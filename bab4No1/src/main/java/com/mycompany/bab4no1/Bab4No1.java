@@ -17,8 +17,6 @@ public class Bab4No1 {
         System.out.println("Hasil Pertambahan A + B " + (a + b));
         System.out.println("Hasil Pengurangan A - B " + (a - b));
         System.out.println("Hasil Perkalian A * B " + (a * b));
-        
-        double hasilPembagian = a / b;
-        System.out.println("Hasil Pembagian A / B " + hasilPembagian);
+        System.out.println("Hasil Pembagian A / B " + (float)a / b);
     }
 }
